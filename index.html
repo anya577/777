@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Responsive Online Boot Store Website Design Tutorial</title>
+    <title>Final Project group 116</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <!-- font awesome cdn link  -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
+    
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body onload="checkCookie()">
     
-<!-- header section starts  -->
+<!-- თავსართის სექცია -საწყისი -->
 
 <header class="header">
 
@@ -51,19 +51,19 @@
 
 </header>
 
-<!-- header section ends -->
+<!-- თავსართის სექცია -დასასრული -->
 
-<!-- bottom navbar  -->
+<!-- icons for responsive navbar  -->
 
 <nav class="bottom-navbar">
     <a href="#home" class="fas fa-home"></a>
-    <a href="#featured" class="fas fa-list"></a>
-    <a href="#arrivals" class="fas fa-tags"></a>
-    <a href="#reviews" class="fas fa-comments"></a>
-    <a href="#blogs" class="fas fa-blog"></a>
+    <a href="#featured" class="fas fa-feather"></a>
+    <a href="#arrivals" class="fas fa-folder-open"></a>
+    <a href="#reviews" class="fas fa-blog"></a>
+    <a href="#contact" class="fas fa-address-card"></a>
 </nav>
 
-<!-- login form  -->
+<!-- რეგისტრაციის ფორმა  -->
 
 <div class="login-form-container">
 
@@ -79,12 +79,12 @@
         <input type="radio" class="female" name="gender"/>
         <label for="" >მდედრობითი</label>
 
-
-        
+      
 
 
         <span>პაროლი</span>
         <input type="password" name="" class="box" placeholder="ჩაწერე პაროლი" id="">
+        <input type="password" name="" class="box" placeholder="გაიმეორე პაროლი" id="">
         <div class="checkbox">
             <input type="checkbox" name="" id="remember-me">
             <label for="remember-me"> დამიმახსოვრე</label>
@@ -97,7 +97,7 @@
 
 </div>
 
-<!-- home section starts  -->
+<!-- "მთავარი"-->
 
 <section class="home" id="home">
 
@@ -125,9 +125,7 @@
 
 </section>
 
-<!-- home section ense  -->
 
-<!-- icons section starts  -->
 
 <section class="icons-container">
 
@@ -158,9 +156,9 @@
 
 </section>
 
-<!-- icons section ends -->
 
-<!-- featured section starts  -->
+
+<!-- "შერჩეული წიგნები" -->
 
 
 
@@ -342,9 +340,9 @@
 
 </section>
 
-<!-- featured section ends -->
 
-<!-- newsletter section starts -->
+
+<!-- "სიახლეები" -->
 
 <section class="newsletter">
 
@@ -356,9 +354,9 @@
 
 </section>
 
-<!-- newsletter section ends -->
 
-<!-- arrivals section starts  -->
+
+
 
 <section class="arrivals" id="arrivals">
 
@@ -463,9 +461,7 @@
 
 </section>
 
-<!-- arrivals section ends -->
 
-<!-- deal section starts  -->
 
 <section class="deal">
 
@@ -482,9 +478,9 @@
 
 </section>
 
-<!-- deal section ends -->
 
-<!-- reviews section starts  -->
+
+<!-- მიმოხილვები  -->
 
 <section class="reviews" id="reviews">
 
@@ -608,9 +604,9 @@
     
 </section>
 
-<!-- reviews section ends -->
 
-<!-- blogs section starts  -->
+
+<!-- "კონტაქტი"  -->
 
 <section class="contact" id="contact">
 
@@ -624,9 +620,8 @@
 
 </section>
 
-<!-- blogs section ends -->
 
-<!-- footer section starts  -->
+<!-- "footer"  -->
 
 <section class="footer">
 
@@ -681,9 +676,9 @@
 
 </section>
 
-<!-- footer section ends -->
 
-<!-- loader  -->
+
+
 
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
